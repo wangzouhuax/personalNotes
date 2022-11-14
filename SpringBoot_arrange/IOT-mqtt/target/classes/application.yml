@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /springMqtt
+spring:
+  application:
+    name: MQTT_arrange
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+com:
+  mqtt:
+    url: tcp://www.wzh.com:1883 # tcp连接 broker,使用 ,  分割
+    clientId: mqtt_test_springBoot
+    topic: iot/#,home/#
+    username: admin
+    password: wangzouhua@1234
+    timeout: 10
+    keepalive: 20

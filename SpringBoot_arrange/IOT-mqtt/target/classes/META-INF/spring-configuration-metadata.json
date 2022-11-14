@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "com.mqtt",
+      "type": "com.wzh.mqtt.config.MqttConfiguration",
+      "sourceType": "com.wzh.mqtt.config.MqttConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.mqtt.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.wzh.mqtt.config.MqttConfiguration"
+    },
+    {
+      "name": "com.mqtt.keepalive",
+      "type": "java.lang.String",
+      "sourceType": "com.wzh.mqtt.config.MqttConfiguration"
+    },
+    {
+      "name": "com.mqtt.password",
+      "type": "java.lang.String",
+      "sourceType": "com.wzh.mqtt.config.MqttConfiguration"
+    },
+    {
+      "name": "com.mqtt.timeout",
+      "type": "java.lang.String",
+      "sourceType": "com.wzh.mqtt.config.MqttConfiguration"
+    },
+    {
+      "name": "com.mqtt.topic",
+      "type": "java.lang.String",
+      "sourceType": "com.wzh.mqtt.config.MqttConfiguration"
+    },
+    {
+      "name": "com.mqtt.url",
+      "type": "java.lang.String",
+      "sourceType": "com.wzh.mqtt.config.MqttConfiguration"
+    },
+    {
+      "name": "com.mqtt.username",
+      "type": "java.lang.String",
+      "sourceType": "com.wzh.mqtt.config.MqttConfiguration"
+    }
+  ],
+  "hints": []
+}

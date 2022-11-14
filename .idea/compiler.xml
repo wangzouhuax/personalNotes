@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RabbitMQ" />
+        <module name="SpringBoot_demo" />
+        <module name="IOT-mqtt" />
+        <module name="Java_test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="IOT-mqtt" target="1.8" />
+      <module name="Java_test" target="1.8" />
+      <module name="RabbitMQ" target="1.8" />
+      <module name="SpringBoot_arrange" target="1.8" />
+      <module name="SpringBoot_demo" target="1.8" />
+      <module name="SpringBoot_Parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="IOT-mqtt" options="-parameters" />
+      <module name="RabbitMQ" options="-parameters" />
+      <module name="SpringBoot_Parent" options="" />
+      <module name="SpringBoot_demo" options="" />
+    </option>
+  </component>
+</project>
