@@ -18,6 +18,7 @@
 	<modules>
 		<module>IOT-mqtt</module>
 		<module>RabbitMQ</module>
+		<module>Kafka</module>
 	</modules>
 
 

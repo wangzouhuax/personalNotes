@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -7,11 +8,22 @@
         <option value="$PROJECT_DIR$/Java_test/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot_arrange/RabbitMQ/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot_Parent/SpringBoot_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_basis/pom.xml" />
+        <option value="$PROJECT_DIR$/Course/pom.xml" />
+        <option value="$PROJECT_DIR$/pay-Strategy/pom.xml" />
+        <option value="$PROJECT_DIR$/commons-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/Java8_features/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot_arrange/Kafka/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Course/kafka/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://$PROJECT_DIR$/Design_parttern/out" />
   </component>
   <component name="ProjectType">
     <option name="id" value="jpab" />

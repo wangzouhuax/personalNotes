@@ -2,21 +2,39 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RabbitMQ" />
-        <module name="SpringBoot_demo" />
+        <module name="jvm" />
+        <module name="rocketmq" />
         <module name="IOT-mqtt" />
+        <module name="tomcat" />
+        <module name="Java8_features" />
+        <module name="Kafka" />
+        <module name="SpringBoot_demo" />
+        <module name="redis" />
+        <module name="commons-utils" />
+        <module name="RabbitMQ" />
+        <module name="pay-Strategy" />
+        <module name="shardingsphere" />
+        <module name="threadPool" />
+        <module name="hashMap" />
+        <module name="Java_basis" />
         <module name="Java_test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="IOT-mqtt" target="1.8" />
-      <module name="Java_test" target="1.8" />
-      <module name="RabbitMQ" target="1.8" />
-      <module name="SpringBoot_arrange" target="1.8" />
+      <module name="Design_Pattern" target="1.8" />
+      <module name="Design_pattern" target="1.8" />
+      <module name="features_java8" target="1.8" />
+      <module name="Java8_featuers" target="1.8" />
+      <module name="java8_features" target="1.8" />
+      <module name="Java_Basis" target="1.8" />
+      <module name="Java_features" target="1.8" />
+      <module name="Kafka" target="1.8" />
+      <module name="kafka" target="1.8" />
       <module name="SpringBoot_demo" target="1.8" />
       <module name="SpringBoot_Parent" target="1.8" />
     </bytecodeTargetLevel>
@@ -24,6 +42,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="IOT-mqtt" options="-parameters" />
+      <module name="Kafka" options="-parameters" />
       <module name="RabbitMQ" options="-parameters" />
       <module name="SpringBoot_Parent" options="" />
       <module name="SpringBoot_demo" options="" />

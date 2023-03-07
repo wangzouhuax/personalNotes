@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringBoot_arrange/IOT-mqtt/IOT-mqtt.iml" filepath="$PROJECT_DIR$/SpringBoot_arrange/IOT-mqtt/IOT-mqtt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_test/Java_test.iml" filepath="$PROJECT_DIR$/Java_test/Java_test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBoot_arrange/RabbitMQ/RabbitMQ.iml" filepath="$PROJECT_DIR$/SpringBoot_arrange/RabbitMQ/RabbitMQ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringBoot_arrange/SpringBoot_arrange.iml" filepath="$PROJECT_DIR$/SpringBoot_arrange/SpringBoot_arrange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_parttern/Design_parttern.iml" filepath="$PROJECT_DIR$/Design_parttern/Design_parttern.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/personalNotes.iml" filepath="$PROJECT_DIR$/.idea/personalNotes.iml" />
     </modules>
   </component>

@@ -25,7 +25,7 @@ public class MqttIotController {
     @PostMapping(value = "/sendIot")
     @ResponseBody
     public Result<String> sendMqtt(@RequestParam(value = "topic")@ApiParam(value = "MQTT 发送Iot主题的消息") String topic,
-                                   @ApiParam(value = "消息") String data){
+                                   @RequestParam(value = "data")@ApiParam(value = "消息") String data){
 
         try{
             // topic 可以带有通配符/iot/#/test
